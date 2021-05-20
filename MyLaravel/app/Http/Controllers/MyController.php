@@ -12,7 +12,10 @@ use Illuminate\Http\Request;
 
 class MyController extends Controller
 {
-    function
-}
+    //
 
-class 
+    public function home() {
+
+        return view('pages.home');
+    }
+}
