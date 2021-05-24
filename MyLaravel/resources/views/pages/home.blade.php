@@ -1,6 +1,16 @@
 @extends('layouts.main-layout')
 @section('name')
 
-    <h1>hello</h1>
+    <div class="container">
+
+        <div class="row">
+
+        </div>
+
+        <div class="row">
+            
+        </div>
+
+    </div>
 
 @endsection

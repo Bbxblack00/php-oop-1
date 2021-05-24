@@ -41,9 +41,9 @@ class MyController extends Controller
         $str1 = $filmUno -> getString();
         $str2 = $filmDue -> getString();
 
-        dd($str1);
+        // dd($str1);
 
-        dd($str2);
+        // dd($str2);
 
         return view('pages.home', compact('filmUno', 'filmDue'));
     }
